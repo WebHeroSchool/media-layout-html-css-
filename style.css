@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background: white;
+  position: relative;
+}
+
+.body {
+    font-size: 19px;
+}
+.unbehaved-element {
+    font-size: 2em;
+}
+@media(max-width: 320px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media(min-width: 641px) {
+  body {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+  @media screen and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+
+  }
+    @media screen and (max-width: 768px) {
+      body {
+        font-size: 15px;
+      }
+
+    }
+      @media screen and (max-width: 375px) {
+        body {
+          font-size: 13px;
+        }
+
+      }
+
+@media (max-width: 480px) /* Portrait phones and smaller */
+
+@media (max-width: 320px) /* Iphone 5 */
